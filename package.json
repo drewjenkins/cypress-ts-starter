@@ -1,0 +1,25 @@
+{
+  "name": "harborwalkscripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "start": "nodemon",
+    "build": "ts-node app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drewjenkins/HarborwalkScripts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drewjenkins/HarborwalkScripts/issues"
+  },
+  "homepage": "https://github.com/drewjenkins/HarborwalkScripts#readme"
+}
