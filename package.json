@@ -1,25 +1,26 @@
 {
-  "name": "harborwalkscripts",
+  "name": "nodes-tarter",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "dependencies": {
+    "cypress": "^4.9.0",
+    "nodemon": "^2.0.4",
+    "typescript": "^3.9.6"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "scripts": {
-    "tsc": "tsc",
-    "start": "nodemon",
-    "build": "ts-node app.ts"
+    "start": "nodemon --config ./config/nodemon.json",
+    "build": "ts-node --project=./config/tsconfig.json src/app.ts"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/drewjenkins/HarborwalkScripts.git"
+    "url": "git+https://github.com/drewjenkins/NodeStarter.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/drewjenkins/HarborwalkScripts/issues"
+    "url": "https://github.com/drewjenkins/NodeStarter/issues"
   },
-  "homepage": "https://github.com/drewjenkins/HarborwalkScripts#readme"
+  "homepage": "https://github.com/drewjenkins/NodeStarter#readme"
 }
