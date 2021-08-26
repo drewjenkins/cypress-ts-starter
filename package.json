@@ -1,5 +1,5 @@
 {
-  "name": "nodes-tarter",
+  "name": "cypress-ts-starter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,17 +10,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "nodemon --config ./config/nodemon.json",
-    "build": "ts-node --project=./config/tsconfig.json src/app.ts"
+    "start": "nodemon --config ./nodemon.json",
+    "open": "cypress open"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/drewjenkins/NodeStarter.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/drewjenkins/NodeStarter/issues"
-  },
-  "homepage": "https://github.com/drewjenkins/NodeStarter#readme"
+  "author": "Andrew Jenkins",
+  "license": "ISC"
 }
